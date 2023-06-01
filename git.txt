@@ -25,3 +25,16 @@ git commit -m "Merge unrelated histories"
 
 git merge master --allow-unrelated-histories
 
+echo "# Map" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Punithkcaditya/Map.git
+git push -u origin main
+
+
+
+git remote add origin https://github.com/Punithkcaditya/Map.git
+git branch -M main
+git push -u origin main
